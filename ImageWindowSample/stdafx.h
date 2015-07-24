@@ -42,6 +42,12 @@
 #include "../common/RawImage.h"
 #include "../common/Screenshot.h"
 
+#ifdef _STATIC
+#pragma comment(lib, "../release_static/ImageWindowStatic.lib")
+#else
+#pragma comment(lib, "../release/ImageWindowDynamic.lib")
+#endif
+
 #ifdef _UNICODE
 #if defined _M_IX86
 #pragma comment(linker,"/manifestdependency:\"type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='x86' publicKeyToken='6595b64144ccf1df' language='*'\"")
