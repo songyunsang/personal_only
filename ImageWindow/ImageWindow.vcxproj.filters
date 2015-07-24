@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Export">
+      <UniqueIdentifier>{99af0df6-3073-4c09-9794-94bdf39ac272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="마우스자취">
+      <UniqueIdentifier>{0dd7b9db-5c6f-466c-84c3-71a830faa880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="픽셀거리측정">
+      <UniqueIdentifier>{6f23e96b-61dd-45d1-949c-563786a571ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Import">
+      <UniqueIdentifier>{4a4ae89e-0b51-484f-b187-e860eac649f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ROIEditor">
+      <UniqueIdentifier>{16599d15-e01a-444a-805f-9d33e9c4ba32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageWindow_Impl">
+      <UniqueIdentifier>{1ea20f6e-da06-4c8d-b605-1dffd349ef4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoordinateTransform">
+      <UniqueIdentifier>{d8e4c279-39ee-4495-a42c-44d1fa49dd0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ROI">
+      <UniqueIdentifier>{c3e7981f-e033-40c3-8e29-779c02531b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ROI\ROIGeometry">
+      <UniqueIdentifier>{14b3a28d-b1ff-43a9-b0f4-f5d6372a46fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ROI\ROIDraw">
+      <UniqueIdentifier>{df2b82e2-b729-4a68-9c1c-bbd2fcc42bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ROI\ROIEdit">
+      <UniqueIdentifier>{56ae8647-cc0d-4e56-9b6a-4470848443dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ROI\Factory">
+      <UniqueIdentifier>{42d0da78-457d-4e49-8165-e04bea89fae8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FastDrawDC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageWindowApp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageWindowMinimap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseTrace.cpp">
+      <Filter>마우스자취</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelMeter.cpp">
+      <Filter>픽셀거리측정</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageScale.cpp">
+      <Filter>Import</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIEditor.cpp">
+      <Filter>ROIEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageWindow_Impl_Overlay.cpp">
+      <Filter>ImageWindow_Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageWindow_Impl.cpp">
+      <Filter>ImageWindow_Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageWindow_Impl_ROI.cpp">
+      <Filter>ImageWindow_Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinateTransformer.cpp">
+      <Filter>CoordinateTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIGeometryBase.cpp">
+      <Filter>ROI\ROIGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIGeometryRect.cpp">
+      <Filter>ROI\ROIGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIDrawBase.cpp">
+      <Filter>ROI\ROIDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIDrawRect.cpp">
+      <Filter>ROI\ROIDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIEditBase.cpp">
+      <Filter>ROI\ROIEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIEditRect.cpp">
+      <Filter>ROI\ROIEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageWindow.cpp">
+      <Filter>Export</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIGeometryPolygon.cpp">
+      <Filter>ROI\ROIGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIDrawPolygon.cpp">
+      <Filter>ROI\ROIDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIEditPolygon.cpp">
+      <Filter>ROI\ROIEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIEditFactory.cpp">
+      <Filter>ROI\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIGeometryRectRounded.cpp">
+      <Filter>ROI\ROIGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIDrawRectRounded.cpp">
+      <Filter>ROI\ROIDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="ROIEditRectRounded.cpp">
+      <Filter>ROI\ROIEdit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImageWindow.def">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="res\ImageWindow.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="iw_crossPoint.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="iw_handp.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="nodrop.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FastDrawDC.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageWindowApp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageWindowMinimap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SWindowImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageWindow.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageWindowEvt.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseTrace.h">
+      <Filter>마우스자취</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelMeter.h">
+      <Filter>픽셀거리측정</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageScale.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIEditor.h">
+      <Filter>ROIEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageWindow_Impl.h">
+      <Filter>ImageWindow_Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinateTransformer.h">
+      <Filter>CoordinateTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIGeometryBase.h">
+      <Filter>ROI\ROIGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIGeometryRect.h">
+      <Filter>ROI\ROIGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIDrawBase.h">
+      <Filter>ROI\ROIDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIDrawRect.h">
+      <Filter>ROI\ROIDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageWindow_Define.h">
+      <Filter>ImageWindow_Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIEditBase.h">
+      <Filter>ROI\ROIEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIEditRect.h">
+      <Filter>ROI\ROIEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIGeometryPolygon.h">
+      <Filter>ROI\ROIGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIDrawPolygon.h">
+      <Filter>ROI\ROIDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIEditPolygon.h">
+      <Filter>ROI\ROIEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIEditFactory.h">
+      <Filter>ROI\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIGeometryRectRounded.h">
+      <Filter>ROI\ROIGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIDrawRectRounded.h">
+      <Filter>ROI\ROIDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="ROIEditRectRounded.h">
+      <Filter>ROI\ROIEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ROIData.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageWindow.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="toolbar1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

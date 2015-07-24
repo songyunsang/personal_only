@@ -1,0 +1,271 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\ImageWindow.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#include ""afxres.rc""     // 표준 구성 요소입니다.\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "TODO: <회사 이름>"
+            VALUE "FileDescription", "TODO: <파일 설명>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ImageWindow.dll"
+            VALUE "LegalCopyright", "TODO: (c) <회사 이름>.  All rights reserved."
+            VALUE "OriginalFilename", "ImageWindow.dll"
+            VALUE "ProductName", "TODO: <제품 이름>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "Center Cross Mark",           ID_CROSSMARK
+        MENUITEM "Display Current Position",    ID_DISPLAYCURRENTPOS
+        MENUITEM "Remove All Overlay",          ID_REMOVEALLOVERLAY
+        MENUITEM SEPARATOR
+        MENUITEM "Zoom In",                     ID_ZOOMIN
+        MENUITEM "Zoom Out",                    ID_ZOOMOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Zoom 1x",                     ID_ZOOMNORMAL
+        MENUITEM "Zoom 2x",                     ID_POPUP_ZOOM2X
+        MENUITEM "Zoom 5x",                     ID_POPUP_ZOOM5X
+        MENUITEM "Zoom 10x",                    ID_POPUP_ZOOM10X
+        MENUITEM SEPARATOR
+        MENUITEM "Zoom Width Fit",              ID_ZOOMWIDTHFIT
+        MENUITEM "Zoom Image Fit",              ID_ZOOMIMAGEFIT
+        MENUITEM "Zoom Bound Fit",              ID_ZOOMBOUNDFIT
+        MENUITEM SEPARATOR
+        MENUITEM "Navigation",                  ID_MOVE
+        MENUITEM SEPARATOR
+        POPUP "Export"
+        BEGIN
+            MENUITEM "File",                        ID_EXPORT_FILE
+            MENUITEM "Clipboard",                   ID_EXPORT_CLIPBOARD
+        END
+        MENUITEM "Screenshot",                  ID_POPUP_SCREENSHOT
+        POPUP "UI"
+        BEGIN
+            MENUITEM "Show ToolBar",                ID_POPUP_SHOWTOOLBAR
+            MENUITEM "Show MiniMap",                ID_POPUP_SHOWMINIMAP
+            MENUITEM "Show PixelMeter",             ID_POPUP_SHOWPIXELMETER
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_IW_HANDPICK         CURSOR                  "iw_handp.cur"
+IDC_IW_CROSSPOINT       CURSOR                  "iw_crossPoint.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGEWINDOW DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | WS_CHILD | WS_BORDER | WS_SYSMENU
+FONT 9, "Arial", 400, 0, 0x0
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_IMAGEWINDOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR_IMAGEWINDOW TOOLBAR 24, 24
+BEGIN
+    BUTTON      ID_ZOOMIN
+    BUTTON      ID_ZOOMOUT
+    SEPARATOR
+    BUTTON      ID_ZOOMNORMAL
+    SEPARATOR
+    BUTTON      ID_ZOOMWIDTHFIT
+    BUTTON      ID_ZOOMIMAGEFIT
+    BUTTON      ID_ZOOMBOUNDFIT
+    SEPARATOR
+    BUTTON      ID_SAVEIMAGE
+    SEPARATOR
+    BUTTON      ID_POPUP_SHOWMINIMAP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR_IMAGEWINDOW BITMAP                  "toolbar1.bmp"
+IDB_TOOLBAR             BITMAP                  "toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    ID_ZOOMIN               "Zoom in"
+    ID_ZOOMOUT              "Zoom Out"
+    ID_ZOOMNORMAL           "Zoom 1x"
+    ID_ZOOMBOUNDFIT         "Bound Fit"
+    ID_ZOOMIMAGEFIT         "Image Fit"
+    ID_ZOOMWIDTHFIT         "Width Fit"
+    ID_SAVEIMAGE            "Save BMP"
+END
+
+STRINGTABLE
+BEGIN
+    ID_POPUP_SHOWMINIMAP    "Mini Map"
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 영어(미국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_IW_HAND             CURSOR                  "nodrop.cur"
+#endif    // 영어(미국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\ImageWindow.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#include "afxres.rc"     // 표준 구성 요소입니다.
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
